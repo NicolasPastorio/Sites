@@ -1,0 +1,19 @@
+table {
+	margin-left: 50px;
+	border-radius: 6px;
+}
+caption {
+	background-color: #054C2A;
+	color: #C3C7C5;
+	border-radius: 5px;
+	height: 40px;
+	padding-top: 20px;
+}
+tr, th, td {
+	text-align: center;
+	padding: 5px 15px 15px 5px;
+	border-radius: 5px;
+}
+.cor {
+	background-color: #2FAB6F;
+}
