@@ -1,0 +1,186 @@
+/*geral*/
+body{
+	font-family: 'Oswald';
+	margin: 0;
+	padding: 0;
+	background-color: #15161b;
+}
+/*cabeçalho*/
+header{
+	display: flex;
+	justify-content: center;
+}
+.logo h2{
+	color: #fff;
+	font-size: 30px;
+}
+.logo span{
+	color: #1a7993;
+}
+/*intro-section_01*/
+section.section-1{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+section.section-1 div.area-title h3{
+	color: #fff;
+	font-weight: normal;
+}
+section.section-1 div.area-title h1{
+	color: #fff;
+	font-size: 45px;
+	line-height: 50px;
+	margin-top: -16px;
+}
+section.section-1 div.area-title a{
+	display: inline-block;
+	background-color: #1a7993;
+	padding: 15px 60px;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.image1 img{
+	width: 460px;
+	height: auto;
+	margin: 20px 0 0 55px;
+}
+/*cards-section_02*/
+section.section-2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+section.section-2 h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+section.section-2 div.cards{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+section.section-2 div.cards div.card{
+	background-color: #2c2f37;
+	width: 200px;
+	height: 180px;
+	margin-left: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	transition: 0.7s all;
+}
+section.section-2 div.cards div.card:hover{
+	background-color: #1a7993;
+	transition: 0.7s all;
+}
+section.section-2 div.cards div.card img{
+	width: 65px;
+}
+/*info-section_03*/
+section.section-3{
+	background-color: #1a7993;
+	height: 342px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+section.section-3 div.area-title h1{
+	color: #fff;
+	font-size: 35px;
+	margin-bottom: 23.05px;
+}
+section.section-3 div.area-title h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 0;
+}
+section.section-3 div.area-title a{
+	display: inline-block;
+	background-color: #fff;
+	padding: 20px 85px;
+	text-decoration: none;
+	color: #15161b;
+	font-size: 19px;
+	font-weight: bold;
+	cursor: pointer;
+}
+section.section-3 div.image2 img{
+	width: 280px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 100px;
+}
+/*form*/
+div.area-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+div.area-form h2{
+	color: #fff;
+	text-align: center;
+}
+div.area-form div.form form{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 300px;
+}
+div.area-form div.form form input{
+	margin-top: 20px;
+	padding-left: 10px;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-family: 'Oswald';
+}
+div.area-form div.form form input::placeholder{
+	color: #000;
+	text-transform: uppercase;
+}
+div.area-form div.form form input[type="submit"]{
+	background-color: #1a7993;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	height: 55px;
+	cursor: pointer;
+}
+footer{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+footer div.social h3{
+	color: #fff;
+	font-weight: normal;
+}
+footer div.social img{
+	width: 30px;
+	margin-left: 15px;
+}
+/*scroll*/
+/*trilho*/
+::-webkit-scrollbar{
+	width: 8.5px;
+	background-color: initial;
+}
+/*barra*/
+::-webkit-scrollbar-thumb{
+	width: 8.5px;
+	background-color: #1a7993;
+	border-radius: 10px;	
+}
