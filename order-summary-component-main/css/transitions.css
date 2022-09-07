@@ -1,0 +1,11 @@
+/*Transitions*/
+main div.informations a:hover{
+	color: var(--Neutral-Dark-blue);
+	text-decoration: none;
+}
+main section button:hover{
+	background: var(--Button-Hover);
+}
+#cancel-order:hover{
+	color: var(--Neutral-Dark-blue);
+}

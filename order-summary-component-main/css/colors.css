@@ -1,0 +1,13 @@
+/*colors*/
+:root{
+	/*Neutral*/
+	--Neutral-Very-pale-blue: hsl(225, 100%, 98%);
+	--Neutral-Desaturated-blue: hsl(224, 23%, 55%);
+	--Neutral-Dark-blue: hsl(223, 47%, 23%);
+	/*Primary*/
+	--Pale-blue: hsl(225, 100%, 94%);
+	--Bright-blue: hsl(245, 75%, 52%);
+	/*Button*/
+	--Button-Initial: rgba(56, 42, 225, 0.190291);
+	--Button-Hover: #766cf1;
+}
