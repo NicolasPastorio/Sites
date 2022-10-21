@@ -1,0 +1,11 @@
+/* FOOTER */
+footer{
+  text-align: center;
+  background: url('../imagens/bg.jpg');
+  padding: 40px 0;
+}
+.copyright{
+  color: #ffffff;
+  cont-size: 13px;
+  margin-top: 20px;
+}
