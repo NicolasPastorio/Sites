@@ -1,0 +1,23 @@
+npm install @react-navigation/native
+npm install @react-navigation/native@5.9.2
+
+
+npm install @react-navigation/bottom-tabs@5.11.7 
+
+
+src/Rotas.js
+{
+  "tabBarActiveTintColor": "#A050BE",
+  "tabBarInactiveTintColor": "#fff",
+  "tabBarLabelStyle": {
+    "fontWeight": "bold",
+    "fontSize": 16,
+    "lineHeight": 21
+  },
+  "tabBarStyle": [
+    {
+      "display": "flex"
+    },
+    null
+  ]
+}
