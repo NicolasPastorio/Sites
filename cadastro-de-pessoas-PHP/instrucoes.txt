@@ -1,0 +1,2 @@
+descomentar instrução da linha linha 934 do arquivo php.ini do arquivo php-8.1.12
+instalado no pc

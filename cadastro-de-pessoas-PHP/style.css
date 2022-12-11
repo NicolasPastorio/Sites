@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form_cd{
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: silver;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+}
+.form_cd h2{
+  color: tomato;
+}
+form input{
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+}
+form input[type="text"]{
+  outline: 0;
+}
+form input[type="submit"]{
+  width: 67%;
+  outline: 0;
+  cursor: pointer;
+}
