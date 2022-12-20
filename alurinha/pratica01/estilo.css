@@ -1,0 +1,19 @@
+.flexContainer{
+  display: flex;
+}
+.flexItem{
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  background-color: tomato;
+}
+.flexItem:first-child{
+  flex-shrink: 2;
+  background-color: green;
+}
+.flexItem:nth-child(2){
+  background-color: pink;
+}
+.flexItem:nth-child(3){
+  background-color: blue;
+}
