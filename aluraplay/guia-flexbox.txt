@@ -1,4 +1,0 @@
-guia flexbox: 
-https://www.alura.com.br/artigos/css-guia-do-flexbox
-reset:
-https://www.alura.com.br/artigos/o-que-e-reset-css
