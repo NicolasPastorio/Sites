@@ -1,0 +1,26 @@
+@media screen and (min-width: 1728px){
+  .carrossel__container{
+    display: flex;
+    margin: 0 15vw 3em 15vw;
+    align-items: center;
+  }
+  .swiper{
+    width: 50%;
+  }
+  .swiper-pagination{
+    margin: 0;
+  }
+  .card{
+    width: 60%;
+    margin-left: 3em;
+  }
+  .descricao{
+    margin-right: 2em;
+  }
+  .descricao__titulo{
+    font-size: 32px;
+  }
+  .descricao__texto{
+    font-size: 16px;
+  }
+}

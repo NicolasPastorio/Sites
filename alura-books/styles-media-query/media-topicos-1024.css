@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px){
+  .topicos__titulo, .topicos__link{
+    font-size: 24px;
+    transition: all .8s;
+  }
+  .topicos__lista{
+    padding: 0 10em;
+  }
+  .topicos__link:hover{
+    transition: all .8s;
+    background-color: var(--branco);
+    color: var(--laranja);
+  }
+}
